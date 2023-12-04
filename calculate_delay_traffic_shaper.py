@@ -31,8 +31,8 @@ def plot_graph(delays):
 
 def main():
     # Define input data
-    time_intervals = [10, 5, 5, 20, 10]  # Adjusted time intervals to cover 45 seconds
-    incoming_rates = [5, 0, 8, 2.5, 0]  # Adjusted incoming rates
+    time_intervals = [10, 5, 5, 5, 20]  # Adjusted time intervals to cover 45 seconds
+    incoming_rates = [5, 0, 8, 0, 2.5]  # Adjusted incoming rates
     shaping_rate = 4
 
     # Calculate delays over time
